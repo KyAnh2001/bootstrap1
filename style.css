@@ -2,9 +2,6 @@ body{
     background-image: url(./yasou.jpg);
     background-origin:border-box;
     background-size: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
 }
 .menu{
     width: 100%;
@@ -26,15 +23,104 @@ body{
     
 }
 .nav-link:hover{
-    color:black;
+    color:#F9B552;
 }
 .slide{
     width: 900px;
     height: 300px;
     margin: auto;
+    margin-top: 20px;
 }
 .slide img{
     width: 900px;
     height: 300px;
 }
+.note{
+    height: 75px;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #101215;
+    color:#F9B552;
+}
+.note h1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.list2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.content1{
+    background-image: url(./yasou.jpg);
+    width: 340px;
+    height: 420px;
+    
 
+}
+.content1 h1{
+    font-size: 20px;
+}
+.content1 img{
+    width: 340px;
+    height: 240px;
+}
+.title{
+    color: lightblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.more{
+    display: flex;
+}
+.buttonmore{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #0BC6E4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    width: 150px;
+    height: 35px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #101215;
+    width: 100%;
+    height: 250px;
+    
+}
+.footerText{
+    text-align: center;
+    font-size: 13px;
+    color: white; 
+    
+}
+.ender{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.Play{
+    display: flex;
+}
+.buttonplay{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #0BC6E4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    width: 150px;
+    height: 35px;
+}
